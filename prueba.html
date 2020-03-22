@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <title>jQuery</title>
+    <script type="text/javascript" src="jquery-3.4.1.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $("h1, h2").dblclick(function() {
+          $(this).toggleClass("borde");
+        });
+      });
+    </script>
+
+    <style type="text/css">
+      body {
+        font: arial, sans-serif;
+        font-size: 0.8em;
+      }
+      .borde {
+        border: 1px solid black;
+      }
+      h1,
+      h2 {
+        cursor: pointer;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Titulo de Nivel 1</h1>
+    <h2>Titulo de Nivel 2</h2>
+    <h3>Titulo de Nivel 3</h3>
+  </body>
+</html>

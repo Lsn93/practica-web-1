@@ -1,0 +1,10 @@
+.parrafo_azul{
+    color: green;
+    background-color: yellow;
+}
+#parrafo_diferente{
+    color: blue;
+}
+p.error_rojo{
+    color: red;
+}
